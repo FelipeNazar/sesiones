@@ -19,12 +19,12 @@ const Hero = () => {
                         )}
 
                         {heroContent.description && (
-                            <p className="leading-relaxed text-body mb-10 text-white">
-                                {heroContent.description}
+                            <p className=" leading-relaxed text-body mb-10 text-grey">
+                                <strong>{heroContent.description}</strong>
                             </p>
                         )}
                         <div> 
-                        <button className="py-4 px-5 bg-primary text-white rounded-lg">
+                        <button className="py-4 px-5 bg-primary text-white bg-blue-600 rounded-lg">
                                 Reservar Hora </button>
 
                         </div>
