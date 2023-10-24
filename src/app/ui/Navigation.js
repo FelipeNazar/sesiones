@@ -57,7 +57,7 @@ const Navigation = () => {
                         </div>
                         {/* CTA */}
                         <div>
-                            <Link href='/auth/signin' className="px-5 py-2 bg-primary text-white rounded-lg hidden lg:inline-block">
+                            <Link href='/auth/signin' className="px-5 py-2 bg-primary text-black rounded-lg hidden lg:inline-block">
                                     Iniciar Sesión
                             </Link>
                         </div>
