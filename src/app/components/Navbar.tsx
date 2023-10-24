@@ -62,7 +62,6 @@ const Navbar = async () => {
             ) : (
                 <>
                     <Link href='/auth/signin ' className="px-5 py-2 bg-primary text-black rounded-lg hidden lg:inline-block">Sign in</Link>
-                    <Link href='/auth/signup'>Sign up</Link>
                 </>
             )}
         </div>
